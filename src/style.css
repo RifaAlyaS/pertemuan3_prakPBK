@@ -1,0 +1,87 @@
+h1 {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  form {
+    
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  
+  input[type="text"] {
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    padding: 8px;
+    font-size: 16px;
+    width: 50%;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .done {
+    text-decoration: line-through;
+    color: #999;
+  }
+  
+  button {
+    background-color: #7c08007e;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  h4 {
+    text-align: center;
+    margin-top: 50px;
+    color: #999;
+  }
+      .filter-buttons {
+          margin-bottom: 20px;
+      }
+  
+      .filter-button {
+          padding: 8px 16px;
+          margin-right: 10px;
+          border: none;
+          background-color: #7c08007e;
+          color: #8d8d8d;
+          font-size: 16px;
+          cursor: pointer;
+          transition: all 0.3s ease;
+      }
+  
+      .filter-button:hover {
+          color: #fff;
+          background-color: #eb10007e;
+      }
+  
+      .filter-button.active {
+          background-color: #eb10007e;
+          color: #fff;
+      }
